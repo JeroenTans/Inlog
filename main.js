@@ -24,28 +24,3 @@ function checkPassword (e) {
     }
 }
 
-/*
-<div>
-<h1 id="header">Registreren</h1>
-<br/>
-<form action="">
-<label for="input-username">Gebruikersnaam:</label>
-<br/>
-<input type="text" id="input-username" name="username" />
-<br/>
-<span class="form-warning" id="username-warning"></span>
-
-    const usernameInput = document.getElementById("input-username");
-    const warningUsername = document.getElementById("username-warning");
-    usernameInput.addEventListener("keyup", checkUsername);
-    function checkUsername (e) {
-    warningUsername.textcontent = "HALLOOOO";
-
-
-    function checkUsername (e) {
-    if (e.target.value.includes("@")) {
-        warningUsername.textContent = "Gebruikersnaam mag geen @ bevatten";
-    } else {
-        warningUsername.textContent = "";
-    }
-}*/
