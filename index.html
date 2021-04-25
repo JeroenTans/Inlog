@@ -7,17 +7,20 @@
 </head>
 <body>
 <div id="greenspace">
-    <form>
-        <label id="register" for="registreren">
+    <form action="">
+        <label id="register">
             Registreren
         </label>
         <label for="username">
             <input id="username" type="text" name="username" placeholder="Gebruikersnaam: "/>
+            <span class="form-warning" id="username-warning"></span>
         </label>
         <label for="password">
             <input id="password" type="password" name="password" placeholder="Wachtwoord: "/>
+            <span class="form-warning" id="password-warning"></span>
         </label>
     </form>
 </div>
+<script src="main.js"></script>
 </body>
 </html>

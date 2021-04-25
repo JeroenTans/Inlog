@@ -19,12 +19,17 @@ form {
     height: 275px;
     background-color: hsl(0, 0%, 78%);
     border-radius: 10px;
-    box-shadow:1px 1px 10px 10px hsl(0, 0%, 94%);
+   /* box-shadow:1px 1px 10px 10px hsl(0, 0%, 94%); */
 }
 
 form label {
     margin: 10px 0;
     width: 160px;
+}
+
+.form-warning {
+    color: red;
+    font-size: 12px;
 }
 
 #register {
